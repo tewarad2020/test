@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+body {
+    background-image: url('../images/bg_seemore.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.ctn_data {
+    position: relative;
+    height: auto;
+    width: 96%;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 2%;
+    /* margin-bottom: 50px; */
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, .9);
+    /* overflow: auto; */
+}
+
+.ctn_data h2{
+    color: rgb(255, 227, 86);
+}
+
+.ctn_data p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.ctn_data h1 {
+    position: relative;
+    /* margin: 8px; */
+    /* font-size: 20px; */
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.btn_change {
+    position: absolute;
+    display: flex;
+    justify-content: center; 
+    /* align-items: center;  */
+    padding: 3px;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(29, 183, 163);
+    border-radius: 20px;
+    right: 3%;
+    bottom: 13px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn_change p{
+    color: #fff;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btn_change:hover p{
+    color: #fff;
+    font-size: 19px;
+}
+
+.btn_change:hover {
+    background-color: rgb(248, 210, 41);
+}
+
+@media (max-width: 500px){
+    .btn_change {
+        left: calc(50% - 75px);
+    }
+}
+
+
